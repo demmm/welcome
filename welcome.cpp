@@ -53,18 +53,18 @@ void welcome::Passwords()
  
 void welcome::About() 
 {
-    QDesktopServices::openUrl(QUrl("file:///home/anke/Desktop/info/about.pdf"));
+    QDesktopServices::openUrl(QUrl("file:///home/live/Desktop/info/about.pdf"));
 }
  
  
 void welcome::PackageList() 
 {
-    QProcess::startDetached("/home/anke/Desktop/info/packages.sh");
+    QProcess::startDetached("/home/live/Desktop/info/packages.sh");
 }
 
 void welcome::Guide() 
 {
-    QDesktopServices::openUrl(QUrl("file:///home/anke/Desktop/info/guide.pdf"));
+    QDesktopServices::openUrl(QUrl("file:///home/live/Desktop/info/guide.pdf"));
 }
 
 void welcome::Forum() 
